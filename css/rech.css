@@ -1,0 +1,41 @@
+#result
+{
+    width :401px;
+  position :absolute;
+    z-index: 1;
+    top : 100px;
+  
+}
+
+#result li
+{
+	list-style-type:none;
+    width :363px;
+      
+
+}
+#result ul li a
+{
+	border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  position: static;
+
+
+
+}
+#result ul li a:hover
+{
+	background-color:#0069d9;
+    
+}
+#result ul {
+    width :401px;
+
+
+}

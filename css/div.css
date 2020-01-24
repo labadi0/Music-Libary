@@ -1,0 +1,124 @@
+
+
+
+/* Style the tab */
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 326px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 22px;
+  font-family: 'Doppio One', sans-serif;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+.commentaireclient {
+  line-height: 200%;
+
+  margin-bottom: 9px;
+  /*margin-left: 6px;*/
+
+  background: #ccc none repeat scroll 0 0;
+  border: 1px solid #c0bebe;
+  border-radius: 5px;
+  float: right;
+  height: 150px;
+  padding: 20px;
+  width: 800px;
+}
+
+
+.commentaireclient p {
+  font-family: arial;
+  font-size: 18px;
+  line-height: 16px;
+  color: #282828;
+
+  margin-bottom: 5px;
+}
+
+
+
+.tabcontent #h {
+    font-size: 22px;
+    color: #6C6C6C;
+    font-family: 'Monda', sans-serif;
+    padding-bottom: .4em;
+    margin-left: 600px;
+}
+
+.register_account form input[type="text"], .register_account form select {
+    font-size: 18px;
+    color: black;
+    padding: 8px;
+    outline: none;
+    margin: 5px 0;
+    width: 340px;
+}
+.register_account form input[type="select"], .register_account form select {
+    font-size: 18px;
+    color: black;
+    padding: 8px;
+    outline: none;
+    margin: 5px 0;
+    width: 340px;
+}
+.register_account form input[type="date"], .register_account form select {
+    font-size: 18px;
+    color: black;
+    padding: 8px;
+    outline: none;
+    margin: 5px 0;
+    width: 340px;
+}
+
+.register_account {
+    background: #fff;
+    border: 1px solid #c0bebe;
+    border-radius: 3px;
+    float: left;
+    height: 380px;
+    padding: 20px;
+    width: 712px;
+}
+.register_account form input[type="password"], .register_account form select {
+font-size: 18px;
+color: black;
+padding: 8px;
+outline: none;
+margin: 5px 0;
+width: 340px;
+}
+
+.commentaire22  {
+    margin-left: 600px;
+    text-align:center;
+    font-size:20px;
+    margin-left:10%;
+    margin-top:10%;
+
+}
